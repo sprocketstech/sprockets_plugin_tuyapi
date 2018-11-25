@@ -1,0 +1,36 @@
+{
+  "name": "sprockets-plugin-tuyapi",
+  "version": "1.0.0",
+  "description": "Sprockets Drive plugin for Tuya controlled devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprocketstech/sprockets_drive_tuyapi.git"
+  },
+  "keywords": [
+    "IoT",
+    "Sprockets",
+    "Tuya",
+    "Drive"
+  ],
+  "author": "Sprockets Technology <info@sprockets.tech> (http://www.sprockets.tech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprocketstech/sprockets_drive_tuyapi/issues"
+  },
+  "homepage": "https://github.com/sprocketstech/sprockets_drive_tuyapi#readme",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-grunt": "*",
+    "grunt-jasmine-nodejs": "*",
+    "load-grunt-tasks": "*",
+    "rewire": "*",
+    "sprockets-sdk": "git+https://github.com/sprocketstech/sprockets_sdk.git"
+  },
+  "dependencies": {
+    "tuyapi": "*"
+  }
+}
